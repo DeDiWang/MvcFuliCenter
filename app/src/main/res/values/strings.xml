@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Fulicenter</string>
+    <string name="login">login</string>
+    <string name="login_fail">login_fail</string>
+    <string name="login_success">login_success</string>
+    <string name="error_password">error_password</string>
+    <string name="unknow_user">unknow_user</string>
+    <string name="user_database_error">user_database_error</string>
+    <string name="register_success">register_success</string>
+    <string name="register_fail">register_fail</string>
+    <string name="register_fail_exists">register_fail_exists</string>
+    <string name="user_database_fail">user_database_fail</string>
+    <string name="user_name_cannot_be_updated">user_name_cannot_be_updated</string>
+    <string name="updateNick_fail">update_nick_fail</string>
+    <string name="user_nick_unmodify">user_nick_unmodify</string>
+    <string name="update_user_avatar_fail">update user avatar fail</string>
+    <string name="update_user_avatar_success">update_user_avatar_success</string>
+    <string name="update_user_avatar">update_user_avatar_ing</string>
+    <string name="delete_collect_fail">delete collect fail</string>
+    <string name="add_cart_success">add cart success</string>
+    <string name="noting_to_buy">noting_to_buy</string>
+</resources>

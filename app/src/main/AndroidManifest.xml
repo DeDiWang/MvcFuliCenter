@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.ucai.mvcfulicenter">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="cn.ucai.mvcfulicenter.model.FuLiCenterApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher"
+        android:label="福利社"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="cn.ucai.mvcfulicenter.controller.activity.MainActivity" />
+        //将闪屏界面设置为程序的入口
+        <activity android:name="cn.ucai.mvcfulicenter.controller.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.ucai.mvcfulicenter.controller.activity.GoodsDetailsActivity"
+            android:launchMode="singleTask" />
+        <activity android:name="cn.ucai.mvcfulicenter.controller.activity.Boutique2Activity" />
+        <activity android:name="cn.ucai.mvcfulicenter.controller.activity.CategoryActivity" />
+        <activity android:name="cn.ucai.mvcfulicenter.controller.activity.RegisterActivity" />
+        <activity android:name="cn.ucai.mvcfulicenter.controller.activity.LoginActivity" />
+        <activity android:name="cn.ucai.mvcfulicenter.controller.activity.SettingActivity" />
+        <activity android:name="cn.ucai.mvcfulicenter.controller.activity.CollectGoodsActivity" />
+        <activity android:name=".controller.activity.AddressActivity"/>
+    </application>
+
+</manifest>

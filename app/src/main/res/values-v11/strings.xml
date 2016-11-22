@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_name_cannot_be_updated">user_name_cannot_be_updated</string>
+    <string name="updateNick_fail">update_nick_fail</string>
+    <string name="user_nick_unmodify">user_nick_unmodify</string>
+</resources>
